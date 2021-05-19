@@ -1,0 +1,5 @@
+name: Mon module
+core_version_requirement: ^8.8 || ^9
+type: module
+package: Custom
+description: Mon premier module

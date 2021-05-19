@@ -1,0 +1,24 @@
+mon_module.ma_page:
+ path: '/ma-page'
+ defaults:
+   _title: 'Choix de la maladie'
+   _controller: '\Drupal\mon_module\Controller\MaPageController::maPage'
+ requirements:
+   _permission: 'access content'
+
+mon_module.showpdf:
+ path: '/showpdf'
+ defaults:
+   _title: 'Information sur la maladie'
+   _controller: '\Drupal\mon_module\Controller\MaPageController::showpdf'
+ requirements:
+   _permission: 'access content'
+
+mon_module.lescochons:
+ path: '/lescochons'
+ defaults:
+   _title: 'Un peu de douceur !'
+   _controller: '\Drupal\mon_module\Controller\CochonsController::cochons'
+ requirements:
+   _permission: 'access content'
+
